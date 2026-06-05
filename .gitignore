@@ -1,0 +1,51 @@
+# ---- Node/Vite/TypeScript ----
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Vite caches
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files (keep .env.example if you have one)
+.env
+.env.*
+!.env.example
+!.env.example.*
+
+# ---- IDE / Editor ----
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---- Misc local files ----
+*.local
+
+# ---- Supabase (generated) ----
+# (Keep migrations/ if you commit them)
+supabase/config.toml
+supabase/.temp/
+supabase/seed.sql
+
+# ---- Docker ----
+# (usually only build output)
+*.tar
+
